@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by prnk1243</title>
+  <link rel="stylesheet" href="./style.css">
+ <script> 
+  console.log('test')
+  console.warn('bye') 
+ </script>
+</head>
+<body>
+  
+<!-- partial:index.partial.html -->
+<main class="main flow">
+  <h1 class="main__heading">Prnk's hub</h1>
+  <div class="main__cards cards">
+    <div class="cards__inner">
+      <div class="cards__card card">
+        <h2 class="card__heading">Basic info</h2>
+  
+        <ul role="list" class="card__bullets flow">
+          <li>I'm prnk and if you couldn't tell im a developer.</li>
+          <li>I can program in multiple languages. I usally model and script inside roblox but sometimes in unity.</li>
+          <li><a>href="https://prnk1243.github.io/404/">More info</a></li>
+        </ul>
+        
+      </div>
+
+      <div class="cards__card card">
+        <h2 class="card__heading">What im working on!</h2>
+        
+        <ul role="list" class="card__bullets flow">
+          <li>This website!</li>
+          <li>NOTE: This may not be up to date since I don't feel like editing this website every time i start a new project.</li>
+        </ul>
+      
+      </div>
+
+      <div class="cards__card card">
+        <h2 class="card__heading">My goals</h2>
+        
+        <ul role="list" class="card__bullets flow">
+          <li>Learn more programming languages</li>
+          <li>Make a gun system inside of roblox studio</li>
+         
+        </ul>
+        
+      </div>
+    </div>
+    
+    <div class="overlay cards__inner"></div>
+  </div>
+</main>
+
+<footer> have a good day!</footer>
+<!-- partial -->
+ 
+</body>
+</html>
+
