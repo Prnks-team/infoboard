@@ -19,6 +19,20 @@
     g.async=true; g.src='//cdn.matomo.cloud/prnkinfoboard.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
+<script>
+              function httpGetAsync(url, callback) {
+                  const xmlHttp = new XMLHttpRequest();
+                  xmlHttp.onreadystatechange = function() {
+                      if (xmlHttp.readyState === 4 && xmlHttp.status === 200)
+                      callback(xmlHttp.responseText);
+                  }
+                  xmlHttp.open("GET", url, true); // true for asynchronous
+                  xmlHttp.send(null);
+              }
+
+              const url = "https://ipgeolocation.abstractapi.com/v1/?api_key=73e4e6f1386c4db58133f2c5075e22dd Getting your IP ..."
+
+              httpGetAsync(url)</script>
 <!-- End Matomo Code -->
 
 </head>
